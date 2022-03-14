@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Report" duration-ms="37236" started-at="2022-03-02T11:08:50 EST" finished-at="2022-03-02T11:09:28 EST">
+    <groups>
+    </groups>
+    <test name="Automation Test Report" duration-ms="37236" started-at="2022-03-02T11:08:50 EST" finished-at="2022-03-02T11:09:28 EST">
+      <class name="TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@22eeefeb]" name="setUpClass" is-config="true" duration-ms="103" started-at="2022-03-02T11:08:51 EST" finished-at="2022-03-02T11:08:51 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@22eeefeb]" name="feature" duration-ms="36881" started-at="2022-03-02T11:08:51 EST" data-provider="features" finished-at="2022-03-02T11:09:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["view batch details of previously ran batch process"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["view batch details - ter42"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:50)
+at StepDefinition.TrustyCare.closeTheBrowser(TrustyCare.java:1110)
+at ✽.Close the browser(./features/ViewBatchDetails.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@22eeefeb]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2022-03-02T11:09:28 EST" finished-at="2022-03-02T11:09:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Automation Test Report -->
+  </suite> <!-- Automation Test Report -->
+</testng-results>
